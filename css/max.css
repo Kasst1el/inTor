@@ -1,0 +1,238 @@
+@font-face {
+	font-family: "HelveticaLight"; /* Имя шрифта */
+	src: url(../max/HelveticaLight.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+	font-family: "Helvetica"; /* Имя шрифта */
+	src: url(../max/HelveticaRegular.ttf); /* Путь к файлу со шрифтом */
+}
+body {
+	margin: 0;
+	font-size: 16px;
+	transition: 0.3s;
+	position: relative;
+}
+* {
+	box-sizing: border-box;
+}
+body, div {
+	font-family: "Helvetica",sans-serif;
+}
+.w-container {
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+	min-height: 100vh;
+}
+.btn {
+	text-decoration: none;
+	text-transform: none;
+	height: 41px;
+	width: 300px;
+	background-color: #fe3346;
+	color: #fff;
+	outline: none;
+	border: none;
+	margin-left: 20px;
+	line-height: 41px;
+	text-align: center;
+	font-family: "OpenSans", sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.w-des {
+	padding: 20px;
+	width: 100%;
+	font-size: 24px;
+}
+.w-des .btn {
+	float: right;
+}
+.tovar-des, .w-tovar {
+	display: flex;
+	width: 100%;
+	position: relative;
+	padding: 0 20px;
+}
+.tovar-des:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	width: calc(100% - 40px);
+	height: 1px;
+	background-color: #eee;
+}
+
+.tovar-des-block {
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 10px 0;
+	color: #818181;
+	font-weight: 500;
+}
+.t-tovar {
+	width: 16%;
+}
+.t-name {
+	width: 32%;
+}
+.t-sum {
+	width: 28%;
+}
+.t-full {
+	width: 24%;
+	text-align: right;
+}
+.w-tovar {
+	position: relative;
+	height: 180px;
+}
+.w-tovar:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 1px;
+	width: 100%;
+	background-color: #eee;
+
+}
+.w-tovar-img {
+	height: 152px;
+	background-size: cover;
+	background-position: center;
+	width: 152px;
+	margin: 14px 15px 14px 5px;
+}
+.w-tovar-des {
+	width: 32%;
+	
+}
+.w-tovar-des-name {
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 1.15;
+}
+.w-tovar-des-article {
+	font-size: 14px;	
+	margin: 10px 0;
+	color: #212121;
+}
+.w-tovar-des-price {
+	font-size: 14px;
+	color: #212121;
+}
+.w-tovar-des-delete{
+	position: absolute;
+	bottom: 5px;
+	text-decoration: underline;
+	color: #818181;
+	font-size: 13px;
+}
+.w-tovar-input {
+	position: relative;
+	width: 28%;
+}
+.plus-minus {
+	width: 30px;
+	height: 30px;
+	font-size: 16px;
+	text-align: center;
+	margin: 15px 30px;
+	font-size: 14px;
+}
+.w-tovar-input .plus {
+	position: absolute;
+	height: 11px;
+	width: 11px;
+	top: 24px;
+	left: 9px;
+	cursor: pointer;
+}
+
+.w-tovar-input .plus:after {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 11px;
+	top: 0;
+	left: 5px;
+	background: #fe3346;
+}
+
+.w-tovar-input .plus:before {
+	content: '';
+	position: absolute;
+	width: 11px;
+	height: 1px;
+	top: 5px;
+	left: 0;
+	background: #fe3346;
+}
+
+.w-tovar-input .minus {	
+	position: absolute;
+	height: 11px;
+	width: 11px;
+	top: 24px;
+	left: 70px;
+	cursor: pointer;
+}
+
+.w-tovar-input .minus:before {
+	content: '';
+	position: absolute;
+	width: 11px;
+	height: 1px;
+	top: 5px;
+	left: 0;
+	background: #fe3346;
+}
+.w-tovar-price {
+	width: 24%;
+	color: #3B3A3A;
+	margin-top: 20px;
+	text-align: right;
+}
+.w-tovars-message {
+	margin-top: 20px;
+	color: #fe3346;
+	font-size: 14px;
+	display: inline-block;
+}
+.w-tovars-bottom-price {
+	float: right;
+	text-align: right;
+	margin-top: 20px;
+	font-size: 18px;
+}
+.w-tovars-bottom-price span {
+	font-size: 14px;
+	line-height: 1.15;
+	display: inline-block;
+	font-style: italic;
+}
+.w-tovars-pod {
+	height: 215px;
+	position: relative;
+}
+.w-tovars-pod:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	width: calc(100% - 40px);
+	height: 1px;
+	background-color: #eee;
+}
+.w-tovars-bot img {
+	width: 167px;
+	margin: 20px 0 0 30px;
+}
+.w-tovars-bot .btn {
+	float: right;
+	display: inline-block;
+	margin-top: 20px;
+}

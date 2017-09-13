@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+</head>
+<body>
+	<script type="text/javascript">
+		function myFunction(){
+			function fib(n) {
+				var a = 1,
+				b = 0,
+				x;
+				for (i = 0; i < n; i++) {
+					x = a + b;
+					a = b
+					b = x;
+				}
+				return b;
+			}
+			console.log("fin() - " + fib(6));	
+		}
+		myFunction();
+	</script>
+</body>
+</html>

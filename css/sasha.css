@@ -1,0 +1,210 @@
+* {
+box-sizing: border-box;
+}
+tr , td { 
+	padding: 5px 0;
+	border-spacing:0px;
+	border-width:0px;
+}
+.f-form {
+	background-color: #303F58;
+	text-align: center;
+	border-radius: 10px;
+}
+.f-form table {
+	display: inline-block;
+	padding: 15px;
+	min-width: 100%
+}
+.f-form tbody {
+	display: block;
+	min-width: 100%;
+}
+.f-form tr {
+	display: block;
+	min-width: 100%;
+}
+.f-form td {
+	display: block;
+	min-width: 100%;
+}
+.input-icon__wrap {
+	position: relative;
+	width: 100%;
+}
+.input-icon__wrap:after {
+	content: '';
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	height: calc(100% - 20px);
+	width: 1px;
+	background: linear-gradient(to top, #DDE0E5 0%, #AFBED7 30%, #AFBED7 70%, #DDE0E5 100% );
+}
+.input-icon__wrap.input-icon__wrap_btns {
+	justify-content: space-between;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.input-icon__wrap_btns:after {
+	display: none;
+}
+.f-btn {
+	width: calc(50% - 5px);
+	border-radius: 4px;
+	line-height: 30px;
+	height: 30px;
+	border: none;
+	box-shadow: 0 0 10px rgba(255,255,255,0.0);
+}
+.f-btn:hover {
+	box-shadow: 0 0 10px rgba(255,255,255,0.4);
+}
+.f-form-des {
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #DDE0E5;
+}
+.f-input {
+	border-radius: 4px;
+	border: none;
+	line-height: 35px;
+	height: 35px;
+	font-weight: 300;
+	padding: 0 0 0 40px;
+	background-color: #DDE0E5;
+	font-size: 12px;
+	box-shadow: 0 0 3px #303030, inset 0 0 5px #666;
+	width: 100%;
+}
+.f-input:focus {
+	outline: none;
+}
+.f-textarea {
+	border-radius: 4px;
+	border: none;
+	line-height: 1.4;
+	padding: 5px 5px 5px 40px;
+	font-weight: 300;
+	background-color: #DDE0E5;
+	resize: none;
+	height: 65px;
+	font-size: 12px;
+	width: 100%;
+}
+.f-textarea:focus {
+	outline: none;
+}
+
+.input-icon__wrap i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 45px;
+	color: #303F58;
+	width: 30px;
+	text-align: center;
+	font-size: 14px;
+}
+.input-icon__wrap i.fa-envelope {
+	font-size: 13px;
+}
+.input-icon__wrap i.fa-id-card {
+	font-size: 13px;
+}
+.input-icon__wrap_textarea i {
+	line-height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.f-form .f-form-checkbox {
+	font-family: sans-serif;
+	color: #DDE0E5;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-align-items: center;
+	align-items: center;
+	width: auto;
+	padding: 0 10px;
+}
+.f-form .f-form-checkbox .checkBoxType {
+	margin: 0;
+	line-height: 20px;
+}
+.f-form .f-form-checkbox .checkChoice {
+	line-height: 20px;
+	font-size: 13px;
+	padding-left: 5px;
+}
+.f-form-chechbox__wrap {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0 5px;
+}
+.f-form-chechbox__des {
+	font-family: sans-serif;
+	width: auto;
+	display: inline-block;
+	padding-right: 10px;
+	line-height: 20px;
+	color: #fff;
+	margin-right: auto;
+	font-size: 12px;
+}
